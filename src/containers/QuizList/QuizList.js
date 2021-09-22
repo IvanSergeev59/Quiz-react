@@ -5,7 +5,7 @@ import classes from './QuizList.css'
 export default class QuizList extends Component {
 
     renderQuizes () {
-        return [1, 2, 3].map((quiz, index) => {
+        return [1, 2, 3, 4].map((quiz, index) => {
             return (
                 <li key={index}>
                     <NavLink to={'/quiz/' + quiz}>
