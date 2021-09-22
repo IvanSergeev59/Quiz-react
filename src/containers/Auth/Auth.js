@@ -125,11 +125,11 @@ export default class Auth extends Component {
                         onClick={this.loginHandler}
                         disabled={!this.state.isFormValid}
                         >Войти
-
+    
                         </Button>
 
                         <Button type="primary"
-                        onClick={this.loginHandler}
+                        onClick={this.registerHandler}
                         disabled={!this.state.isFormValid}
                         >
                         Зарегистрироваться
