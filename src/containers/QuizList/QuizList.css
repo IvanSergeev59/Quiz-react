@@ -8,13 +8,13 @@
 }
 
 .QuizList h1 {
-    color:#fff
+    color: #fff;
 }
 
 .QuizList ul {
     list-style: none;
-    margin:0;
-    padding:0
+    margin: 0;
+    padding: 0;
 }
 
 .QuizList li {
@@ -22,10 +22,10 @@
 }
 
 .QuizList li a {
-   text-decoration: none;
-   color: white;
+    text-decoration: none;
+    color: #fff;
 }
 
 .QuizList li a:hover {
- color:gray
- }
+    color: #363f54;
+}
